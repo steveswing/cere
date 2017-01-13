@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <configuration>
+        <custom-converters>
+            <converter type="com.briarshore.utility.CellAsStringConverter">
+                <class-a>org.apache.poi.xssf.usermodel.XSSFCell</class-a>
+                <class-b>java.lang.String</class-b>
+            </converter>
+        </custom-converters>
+    </configuration>
+    <mapping map-id="0" trim-strings="true" wildcard="true" map-empty-string="false" type="one-way">
+        <class-a>org.apache.poi.xssf.usermodel.XSSFCell</class-a>
+        <class-b>java.lang.String</class-b>
+    </mapping>
+    <mapping map-id="1" trim-strings="true" wildcard="true" map-empty-string="false" type="one-way">
+        <class-a>org.apache.poi.xssf.usermodel.XSSFCell</class-a>
+        <class-b>java.lang.String</class-b>
+    </mapping>
+    <mapping map-id="2" trim-strings="true" wildcard="true" map-empty-string="false" type="one-way">
+        <class-a>org.apache.poi.xssf.usermodel.XSSFCell</class-a>
+        <class-b>java.lang.String</class-b>
+    </mapping>
+    <mapping map-id="3" trim-strings="true" wildcard="true" map-empty-string="false" type="one-way">
+        <class-a>org.apache.poi.xssf.usermodel.XSSFCell</class-a>
+        <class-b>java.lang.String</class-b>
+    </mapping>
+    <mapping map-id="4" trim-strings="true" wildcard="true" map-empty-string="false" type="one-way">
+        <class-a>org.apache.poi.xssf.usermodel.XSSFCell</class-a>
+        <class-b>java.lang.String</class-b>
+    </mapping>
+    <mapping map-id="5" trim-strings="true" wildcard="true" map-empty-string="false" type="one-way">
+        <class-a>org.apache.poi.xssf.usermodel.XSSFCell</class-a>
+        <class-b>java.lang.String</class-b>
+    </mapping>
+</mappings>
